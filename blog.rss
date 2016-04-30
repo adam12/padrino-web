@@ -13,9 +13,7 @@ switch to the new website. There are still some issues and not everything is wor
 future.&lt;/p&gt;
 
 &lt;p&gt;This blog post will illustrate the process of the work.&lt;/p&gt;
-
-&lt;h2&gt;First draft in 2013&lt;/h2&gt;
-
+&lt;h2 id="first-draft-in-2013"&gt;First draft in 2013&lt;/h2&gt;
 &lt;p&gt;Was created by &lt;a href="https://github.com/DAddYE"&gt;Davide D&amp;#39;Agostino&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here are some images:&lt;/p&gt;
@@ -31,9 +29,7 @@ src="https://camo.githubusercontent.com/a3885fa4ce5c2887280cfd93b6f733ca0a7e210f
 
 &lt;p&gt;There had been several discussions about the colors but the idea and thread ended. You can follow the &lt;a href="https://github.com/padrino/padrino-web-classic/issues/30"&gt;issue on
 github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Next draft and initial version in 2014&lt;/h2&gt;
-
+&lt;h2 id="next-draft-and-initial-version-in-2014"&gt;Next draft and initial version in 2014&lt;/h2&gt;
 &lt;p&gt;The guys from &lt;a title="UXtemple" href="https://uxtemple.com/"&gt;UXtemple&lt;/a&gt; created a first draft under
 &lt;a title="padrino.incontentkingdom.com/" href="http://padrino.incontentkingdom.com/"&gt;padrino.incontentkingdom.com/&lt;/a&gt;.&lt;/p&gt;
 
@@ -48,9 +44,7 @@ github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://farm2.staticflickr.com/1487/24304559276_60fe163c6d_z_d.jpg"&gt;&lt;/p&gt;
 
 &lt;p&gt;This version looked very promising but a lot of content was missing.&lt;/p&gt;
-
-&lt;h2&gt;Further version in November 2014&lt;/h2&gt;
-
+&lt;h2 id="further-version-in-november-2014"&gt;Further version in November 2014&lt;/h2&gt;
 &lt;p&gt;After some time, &lt;a title="Matthias Günther" href="https://github.com/wikimatze"&gt;Matthias Günther&lt;/a&gt; sat down and started creating a
 complete new version of the site in &lt;a title="jekyll" href="http://jekyllrb.com/"&gt;jekyll&lt;/a&gt;.&lt;/p&gt;
 
@@ -70,9 +64,7 @@ complete new version of the site in &lt;a title="jekyll" href="http://jekyllrb.c
 &lt;p&gt;&lt;img src="https://farm2.staticflickr.com/1661/24073250940_70864c4ae3_o_d.png"&gt;&lt;/p&gt;
 
 &lt;p&gt;You can follow the &lt;a href="https://github.com/padrino/padrino-framework/issues/1826"&gt;discussion on github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Further version in January 2015&lt;/h2&gt;
-
+&lt;h2 id="further-version-in-january-2015"&gt;Further version in January 2015&lt;/h2&gt;
 &lt;p&gt;Then &lt;a href="https://github.com/angeloashmore"&gt;Angelo Ashmore&lt;/a&gt; sat down and created another version of the new website with
 &lt;a href="https://middlemanapp.com/"&gt;middleman&lt;/a&gt;.&lt;/p&gt;
 
@@ -85,9 +77,7 @@ complete new version of the site in &lt;a title="jekyll" href="http://jekyllrb.c
 &lt;p&gt;&lt;img src="https://farm2.staticflickr.com/1557/24342623936_a70a6a8be2_o_d.png"&gt;&lt;/p&gt;
 
 &lt;p&gt;You can follow the &lt;a href="https://github.com/padrino/padrino-framework/issues/1964"&gt;discussion on github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;A big thank you&lt;/h2&gt;
-
+&lt;h2 id="a-big-thank-you"&gt;A big thank you&lt;/h2&gt;
 &lt;p&gt;We have to thank &lt;a title="Darío Javier Cravero" href="https://github.com/dariocravero"&gt;Darío Javier Cravero&lt;/a&gt;,
 &lt;a title="Luis Merino" href="https://github.com/Rendez"&gt;Luis Merino&lt;/a&gt;, &lt;a title="Peter Saxton" href="https://github.com/CrowdHailer"&gt;Peter Saxton&lt;/a&gt;,
 &lt;a title="Nathan Esquenazi" href="https://github.com/nesquena"&gt;Nathan Esquenazi&lt;/a&gt;, &lt;a title="namusyaka" href="https://github.com/namusyaka"&gt;namusyaka&lt;/a&gt;,
@@ -96,9 +86,7 @@ complete new version of the site in &lt;a title="jekyll" href="http://jekyllrb.c
 
 &lt;p&gt;We had several versions of the website and all worked enthusiastically to get the new site up and running. This is
 surely a big step forward to Padrino 1.0.0 stable release.&lt;/p&gt;
-
-&lt;h2&gt;Contribute&lt;/h2&gt;
-
+&lt;h2 id="contribute"&gt;Contribute&lt;/h2&gt;
 &lt;p&gt;We are working very actively on Padrino documentation and want to make the framework as stable and reliable as possible.
 If you want to help us, check the &lt;a href="https://github.com/padrino/padrino-web/issues"&gt;issues&lt;/a&gt; - even the new website is
 out, there is plenty of work left.&lt;/p&gt;
@@ -114,9 +102,7 @@ out, there is plenty of work left.&lt;/p&gt;
       <title>Padrino 0.13.1 - Router and Reloader Updates, Ruby Compatibility, and Bug Fixes</title>
       <link>http://padrinorb.com/blog/padrino-0-13-1-router-reloader-updates-ruby-compatibility-and-bug-fixes/</link>
       <description>&lt;p&gt;Padrino 0.13.0 was shipped 3 months ago on October 2015 and laid important groundwork towards our eventual 1.0 release but also introduced some new issues. After a few months of effort, we are excited to announce the release of Padrino 0.13.1! This version is filled with routing and reloader optimizations, compatibility updates, and bug fixes. Full details for this release are below. &lt;/p&gt;
-
-&lt;h2&gt;Router and Reloader Updates&lt;/h2&gt;
-
+&lt;h2 id="router-and-reloader-updates"&gt;Router and Reloader Updates&lt;/h2&gt;
 &lt;p&gt;The biggest improvement in this release is a significant reduction in the memory usage of Padrino apps by changing the configuration of the underlying mustermann router. Full list of improvements to router and reloader include:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -124,17 +110,13 @@ out, there is plenty of work left.&lt;/p&gt;
 &lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1982"&gt;#1982&lt;/a&gt; Support nested query for expanding path (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1978"&gt;#1978&lt;/a&gt; Enable reloading of custom dependencies (&lt;a href="https://github.com/markglenfletcher"&gt;@markglenfletcher&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2&gt;Ruby Compatibility&lt;/h2&gt;
-
+&lt;h2 id="ruby-compatibility"&gt;Ruby Compatibility&lt;/h2&gt;
 &lt;p&gt;Padrino 0.13.1 has been fixed to be fully compatible with Ruby 2.3 thanks to &lt;a href="https://github.com/tyabe"&gt;@tyabe&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/2000"&gt;#2000&lt;/a&gt; Fix mutex handling for Ruby 2.3 (&lt;a href="https://github.com/tyabe"&gt;@tyabe&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2&gt;Bug Fixes and Miscellaneous&lt;/h2&gt;
-
+&lt;h2 id="bug-fixes-and-miscellaneous"&gt;Bug Fixes and Miscellaneous&lt;/h2&gt;
 &lt;p&gt;There are also several bug fixes and other updates:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -159,13 +141,9 @@ out, there is plenty of work left.&lt;/p&gt;
       <description>&lt;p&gt;Padrino 0.12.4 was shipped on October 19th 2014. Hard to believe that just about a year has flown by since then as we have been working towards our next major release of Padrino. While there have been betas available for some time, we are excited to announce the final release of Padrino 0.13.0! This version has a huge host of improvements and upgrades, both big and small.&lt;/p&gt;
 
 &lt;p&gt;This 0.13.0 release brings several major changes and updates including a completely redesigned router, significant performance enhancements, streaming support, bug fixes and a ton of code cleanup. Full details for this release are below. You should also check out the &lt;a href="http://www.padrinorb.com/blog/upgrading-padrino-from-0-12-x-to-0-13-0-guide"&gt;0.13.0 upgrade guide&lt;/a&gt; as well for a detailed look at moving up from 0.12.X.&lt;/p&gt;
-
-&lt;h2&gt;Redesigned Mustermann Router&lt;/h2&gt;
-
+&lt;h2 id="redesigned-mustermann-router"&gt;Redesigned Mustermann Router&lt;/h2&gt;
 &lt;p&gt;One of the big changes in this release was the retirement of &lt;a href="https://github.com/joshbuddy/http_router"&gt;http_router&lt;/a&gt; which is no longer being maintained. We have switched to a brand new router written by &lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;. The older router had accrued significant technical debt with many hacks and workarounds introduced along with thread-safety issues. We’ve been working on this redesigned router for quite sometime, running &lt;a href="https://github.com/padrino/padrino-framework/pull/1692"&gt;router benchmarks&lt;/a&gt; and making sure we took our time to ensure a smooth replacement. We are proud to unveil the new router with this release and you can &lt;a href="https://github.com/padrino/padrino-framework/pull/1800"&gt;read more details in this PR&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Project-wide Configuration&lt;/h2&gt;
-
+&lt;h2 id="project-wide-configuration"&gt;Project-wide Configuration&lt;/h2&gt;
 &lt;p&gt;With 0.13.0 comes project-wide global configuration options with environment support. This is inspired by the Sinatra configuration system but is project-wide rather than app-specific. Configuration can be done anywhere in your project including &lt;code&gt;config/apps.rb&lt;/code&gt;:&lt;/p&gt;
 &lt;pre class="syntax ruby"&gt;&lt;code&gt;&lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;config&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;value1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;42&lt;/span&gt;
 
@@ -188,9 +166,7 @@ out, there is plenty of work left.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Thanks to &lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt; for implementing this. More details can &lt;a href="https://github.com/padrino/padrino-framework/pull/1909"&gt;be found in the PR&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Sinatra Upgrades&lt;/h2&gt;
-
+&lt;h2 id="sinatra-upgrades"&gt;Sinatra Upgrades&lt;/h2&gt;
 &lt;p&gt;In this release, we have upgraded Sinatra to the latest 1.4.6 release which allowed us to clean up several previous workarounds. The result is an even cleaner integration with Sinatra. This includes the following Sinatra compatibility improvements:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -203,9 +179,7 @@ out, there is plenty of work left.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;We are committed to compatibility with our Sinatra core and this release marks a solid step forward in that regard.&lt;/p&gt;
-
-&lt;h2&gt;Component Updates&lt;/h2&gt;
-
+&lt;h2 id="component-updates"&gt;Component Updates&lt;/h2&gt;
 &lt;p&gt;There are several component updates and tweaks in this release including but not limited to:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -216,9 +190,7 @@ out, there is plenty of work left.&lt;/p&gt;
 &lt;li&gt;NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1940"&gt;#1940&lt;/a&gt; Add IdentityMap middleware to datamapper (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1895"&gt;#1895&lt;/a&gt; Use compass-blueprint gem for improved compass generator (&lt;a href="https://github.com/myokoym"&gt;@myokoym&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2&gt;Performance Improvements&lt;/h2&gt;
-
+&lt;h2 id="performance-improvements"&gt;Performance Improvements&lt;/h2&gt;
 &lt;p&gt;We are committed to making Padrino as lightweight and comparable to raw Sinatra speed as possible. In that vein, we have made the following improvements:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -236,9 +208,7 @@ out, there is plenty of work left.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This should help us in making continued improvements going forward.&lt;/p&gt;
-
-&lt;h2&gt;Bug Fixes and Misc Improvements&lt;/h2&gt;
-
+&lt;h2 id="bug-fixes-and-misc-improvements"&gt;Bug Fixes and Misc Improvements&lt;/h2&gt;
 &lt;p&gt;A full list of other changes can be &lt;a href="https://github.com/padrino/padrino-framework/compare/0.12.5...0.13.0"&gt;found on Github&lt;/a&gt; but an abridged version has been appended below:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -290,9 +260,7 @@ out, there is plenty of work left.&lt;/p&gt;
       <title>Upgrading Padrino from 0.12.X to 0.13.0 Guide</title>
       <link>http://padrinorb.com/blog/upgrading-padrino-from-0-12-x-to-0-13-0-guide/</link>
       <description>&lt;p&gt;This is the step-by-step guide for upgrading from Padrino 0.12.X to 0.13.0! This will review all the breaking changes and modifications made within the new release. Be sure to also check the &lt;a href="http://www.padrinorb.com/blog/padrino-0-13-0-mustermann-router-performance-enhancements-streaming-support-and-much-more"&gt;0.13.0 Release Blog Post&lt;/a&gt; for more information.&lt;/p&gt;
-
-&lt;h2&gt;Deprecated Features Removed&lt;/h2&gt;
-
+&lt;h2 id="deprecated-features-removed"&gt;Deprecated Features Removed&lt;/h2&gt;
 &lt;p&gt;Several deprecated methods were removed in this release including:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -325,9 +293,7 @@ out, there is plenty of work left.&lt;/p&gt;
 &lt;li&gt;No replacement exists&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2&gt;Helper Changes&lt;/h2&gt;
-
+&lt;h2 id="helper-changes"&gt;Helper Changes&lt;/h2&gt;
 &lt;p&gt;There are a few helper changes to be aware of:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -337,9 +303,7 @@ out, there is plenty of work left.&lt;/p&gt;
 &lt;li&gt;Switch your &lt;code&gt;:selected&lt;/code&gt; options to indicate the value of the option wherever possible. (see &lt;a href="https://github.com/padrino/padrino-framework/commit/49f4e907d0caeba81537f184db99a550cac31c5a"&gt;more here&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2&gt;New Routing System&lt;/h2&gt;
-
+&lt;h2 id="new-routing-system"&gt;New Routing System&lt;/h2&gt;
 &lt;p&gt;Subtle differences likely exist between the old &lt;a href="https://github.com/joshbuddy/http_router"&gt;http_router&lt;/a&gt; and the new &lt;a href="https://github.com/rkh/mustermann"&gt;mustermann&lt;/a&gt; powered system. These differences include:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -357,9 +321,7 @@ out, there is plenty of work left.&lt;/p&gt;
       <title>Padrino 0.12.5</title>
       <link>http://padrinorb.com/blog/padrino-0-12-5/</link>
       <description>&lt;p&gt;Almost six months ago, we released 0.12.4 which introduced a number of improvements to the rack mounter, improving documentation and releasing bug fixes. Today, we are releasing the a small update on the 0.12.x line which includes a few of bug fixes. The details of this release can be found below.&lt;/p&gt;
-
-&lt;h2&gt;Bug Fixes and Miscellaneous&lt;/h2&gt;
-
+&lt;h2 id="bug-fixes-and-miscellaneous"&gt;Bug Fixes and Miscellaneous&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1794"&gt;#1794&lt;/a&gt; inheritance of global prereqs (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1798"&gt;#1798&lt;/a&gt; handling non-array &lt;code&gt;with&lt;/code&gt; statement for params (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
@@ -380,9 +342,7 @@ out, there is plenty of work left.&lt;/p&gt;
       <title>Padrino 0.12.4</title>
       <link>http://padrinorb.com/blog/padrino-0-12-4/</link>
       <description>&lt;p&gt;Two months ago, we released 0.12.3 which introduced a number of improvements to the core codebase and put our 0.12.x branch into a solid place. Today, we are releasing the final iteration on the 0.12.x line which includes a ton of bug fixes and documentation cleanup. The details of this release can be found below. This release paves the road for our 0.13.0 release that will likely follow next with several substantial changes in place. The details of this 0.12.4 release can be found below.&lt;/p&gt;
-
-&lt;h2&gt;Mounter Supports Rack&lt;/h2&gt;
-
+&lt;h2 id="mounter-supports-rack"&gt;Mounter Supports Rack&lt;/h2&gt;
 &lt;p&gt;The Padrino Mounter has always been one of the cores of our framework and allowed the flexible mounting of many different padrino apps within the same project. This functionality is at the heart of the light modular app architecture that powers Padrino. However, until recently the mounter only worked for Padrino apps. With this release, @namusyaka removed that restriction and now we can map any Rack, Grape or Sinatra app into a Padrino project:&lt;/p&gt;
 &lt;pre class="syntax ruby"&gt;&lt;code&gt;&lt;span class="c1"&gt;# config/apps.rb&lt;/span&gt;
 &lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;mount&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'SinatraApp'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;app_file: &lt;/span&gt;&lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;root&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'sinatra_app/app.rb'&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
@@ -390,17 +350,13 @@ out, there is plenty of work left.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;We are excited for our router to be that much more flexible going forward towards 1.0!&lt;/p&gt;
-
-&lt;h2&gt;Fixing Padrino Docs&lt;/h2&gt;
-
+&lt;h2 id="fixing-padrino-docs"&gt;Fixing Padrino Docs&lt;/h2&gt;
 &lt;p&gt;A few months ago, we were honored to be brought onto the RubyRogues podcast to discuss the Padrino Framework and explain why we think Sinatra and Padrino are a great way to build modern and maintainable ruby web apps and APIs.&lt;/p&gt;
 
 &lt;p&gt;However, we recognize that our framework has a challenge. Our Padrino guides are almost all woefully outdated and unmaintained and our website is old and rusty. We are fortunate to have Matthias Gunther working tirelessly on the awesome Padrino Book but we recognize we need to do better. To get things going, we have merged all of our markdown docs into the main padrino code repository.&lt;/p&gt;
 
 &lt;p&gt;We realize this is only a small first step and we know that one of the biggest roadblocks to a real 1.0 release is a substantial refresh of our documentation and our website. More updates about this soon. If anyone is interested in helping with the documentation effort, please reach out to us.&lt;/p&gt;
-
-&lt;h2&gt;Bug Fixes and Miscellaneous&lt;/h2&gt;
-
+&lt;h2 id="bug-fixes-and-miscellaneous"&gt;Bug Fixes and Miscellaneous&lt;/h2&gt;
 &lt;p&gt;A few deprecation notices:&lt;/p&gt;
 
 &lt;ul&gt;
