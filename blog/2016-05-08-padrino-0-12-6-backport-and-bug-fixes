@@ -1,0 +1,16 @@
+<p>About 8 month ago, we released Padrino 0.12.5 in September 2015. Today, we are releasing 0.12.6 which backports a number of important bug fixes back to the 0.12.x release line.</p>
+<h2 id="bug-fixes-and-miscellaneous">Bug Fixes and Miscellaneous</h2>
+<p>There are many important bug fixes and other updates:</p>
+
+<ul>
+<li>FIX properly reload classes without instances (<a href="https://github.com/ujifgc">@ujifgc</a>)</li>
+<li>FIX do not pollute original Minitest::Benchmark (<a href="https://github.com/ujifgc">@ujifgc</a>)</li>
+<li>FIX <a href="https://github.com/padrino/padrino-framework/issues/2027">#2027</a> Use Module#name instead of Module#to_s (<a href="https://github.com/namusyaka">@namusyaka</a>)</li>
+<li>FIX Remove empty rows and cols from textarea tag (<a href="https://github.com/ujifgc">@ujifgc</a>)</li>
+<li>FIX <a href="https://github.com/padrino/padrino-framework/issues/2029">#2029</a> Don&#39;t set a value attribute on label tags (<a href="https://github.com/sshaw">@sshaw</a>)</li>
+<li>FIX allow Padrino::Rendering on stdlib ERB (<a href="https://github.com/ujifgc">@ujifgc</a>)</li>
+<li>FIX <a href="https://github.com/padrino/padrino-framework/issues/1880">#1880</a> Use proper file extention when resolving template for content_type (<a href="https://github.com/ujifgc">@ujifgc</a>)</li>
+<li>FIX <a href="https://github.com/padrino/padrino-framework/issues/1796">#1796</a> save and restore layout setting (<a href="https://github.com/ujifgc">@ujifgc</a>)</li>
+</ul>
+
+<p>Please report any issues you encounter with this release! We are working very actively on Padrino and want to make the framework as stable and reliable as possible. That concludes the changelog for this release. As always if you want to keep up with Padrino updates, be sure to follow us on twitter: <a href="http://twitter.com/#!/padrinorb">@padrinorb</a>, join us on IRC at “#padrino” on freenode or <a href="https://github.com/padrino/padrino-framework/issues">open an issue</a> on GitHub.</p>
