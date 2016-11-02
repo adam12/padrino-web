@@ -5,6 +5,35 @@
     <description>Blog - Padrino Ruby Web Framework</description>
     <link>http://padrinorb.com/</link>
     <item>
+      <title>Padrino 0.13.3.2 - small fixes, documentation cleanup, enable sqlite's file to deep tree of subdirectories, caching the content_type mime type</title>
+      <link>http://padrinorb.com/blog/padrino-0-13-3-2/</link>
+      <description>&lt;p&gt;Padrino 0.13.3.2 was shipped in September 2016. This version contains small fixes, documentation cleanup, enable sqlite&amp;#39;s file to deep tree of subdirectories, as well as fixing an issue with not caching the content_type mime type.&lt;/p&gt;
+&lt;h2 id="be-able-to-create-sqlite-39-s-file-to-deep-tree-of-subdirectories"&gt;Be able to create sqlite&amp;#39;s file to deep tree of subdirectories.&lt;/h2&gt;
+&lt;p&gt;&lt;a title="@karakava" href="https://github.com/kkarakawa"&gt;@karakava&lt;/a&gt; was so nice to make the following possible when working with
+&lt;a title="SQLite" href="https://sqlite.org/"&gt;SQLite&lt;/a&gt;:&lt;/p&gt;
+&lt;pre class="syntax ruby"&gt;&lt;code&gt;&lt;span class="no"&gt;ActiveRecord&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Base&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;configuration&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:development&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="ss"&gt;:adapter&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="s1"&gt;'sqlite3'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="ss"&gt;:database&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;root&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'db'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'development/1/sample.db'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="bug-fixes-and-miscellaneous-things"&gt;Bug Fixes and Miscellaneous Things&lt;/h2&gt;
+&lt;p&gt;There are several bug fixes and other updates:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FIX fix padrinorb.com links in several rdocs (&lt;a title="@karakava" href="https://github.com/kkarakawa"&gt;@karakava)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/2075"&gt;#2075&lt;/a&gt; cache actual content_type mime type (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;) - thanks &lt;a title="davinciRor" href="https://github.com/davinciRor"&gt;davinciRor&lt;/a&gt; for reporing this issue&lt;/li&gt;
+&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/2076"&gt;#2076&lt;/a&gt; retire webrat and nokogiri from helper tests and using now &lt;a title="oga" href="https://github.com/YorickPeterse/oga"&gt;oga&lt;/a&gt; (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/2081"&gt;#2081&lt;/a&gt; remove -i option from pg_dump command (&lt;a href="https://github.com/dfens"&gt;@dfens&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/2083"&gt;#2083&lt;/a&gt; remove -i option from pg_dump command (&lt;a href="https://github.com/dfens"&gt;@dfens&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/padrino/padrino-framework/commit/b8387602922cd97afeb9cd00be9428244d47a076"&gt;FIX a typo in admin generation command&lt;/a&gt; when no valid render engine is being used&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please report any issues you encounter with this release! We are working very actively on Padrino and want to make the framework as stable and reliable as possible. That concludes the changelog for this release. As always if you want to keep up with Padrino updates, be sure to follow us on twitter: &lt;a href="http://twitter.com/padrinorb"&gt;@padrinorb&lt;/a&gt;, join us on IRC at “#padrino” on freenode or &lt;a href="https://github.com/padrino/padrino-framework/issues"&gt;open an issue&lt;/a&gt; on GitHub.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 2 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>http://padrinorb.com/blog/padrino-0-13-3-2/</guid>
+    </item>
+    <item>
       <title>Padrino 0.13.3 - Generator changes, mailer rendering, proper URL escaping for link_to and form_tag helpers, new helper method, bug fixes</title>
       <link>http://padrinorb.com/blog/padrino-0-13-3/</link>
       <description>&lt;p&gt;Padrino 0.13.3 was shipped in August 2016. This version contains generator changes, mailer rendering, proper URL escaping for &lt;code&gt;link_to&lt;/code&gt; and &lt;code&gt;form_tag&lt;/code&gt; helpers, new helper method, bug fixes.&lt;/p&gt;
@@ -314,127 +343,6 @@ out, there is plenty of work left.&lt;/p&gt;
 </description>
       <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
       <guid>http://padrinorb.com/blog/padrino-0-13-1-router-reloader-updates-ruby-compatibility-and-bug-fixes/</guid>
-    </item>
-    <item>
-      <title>Padrino 0.13.0 - Mustermann Router, Performance Enhancements, Streaming Support, and Much More</title>
-      <link>http://padrinorb.com/blog/padrino-0-13-0-mustermann-router-performance-enhancements-streaming-support-and-much-more/</link>
-      <description>&lt;p&gt;Padrino 0.12.4 was shipped on October 19th 2014. Hard to believe that just about a year has flown by since then as we have been working towards our next major release of Padrino. While there have been betas available for some time, we are excited to announce the final release of Padrino 0.13.0! This version has a huge host of improvements and upgrades, both big and small.&lt;/p&gt;
-
-&lt;p&gt;This 0.13.0 release brings several major changes and updates including a completely redesigned router, significant performance enhancements, streaming support, bug fixes and a ton of code cleanup. Full details for this release are below. You should also check out the &lt;a href="http://www.padrinorb.com/blog/upgrading-padrino-from-0-12-x-to-0-13-0-guide"&gt;0.13.0 upgrade guide&lt;/a&gt; as well for a detailed look at moving up from 0.12.X.&lt;/p&gt;
-&lt;h2 id="redesigned-mustermann-router"&gt;Redesigned Mustermann Router&lt;/h2&gt;
-&lt;p&gt;One of the big changes in this release was the retirement of &lt;a href="https://github.com/joshbuddy/http_router"&gt;http_router&lt;/a&gt; which is no longer being maintained. We have switched to a brand new router written by &lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;. The older router had accrued significant technical debt with many hacks and workarounds introduced along with thread-safety issues. We’ve been working on this redesigned router for quite sometime, running &lt;a href="https://github.com/padrino/padrino-framework/pull/1692"&gt;router benchmarks&lt;/a&gt; and making sure we took our time to ensure a smooth replacement. We are proud to unveil the new router with this release and you can &lt;a href="https://github.com/padrino/padrino-framework/pull/1800"&gt;read more details in this PR&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="project-wide-configuration"&gt;Project-wide Configuration&lt;/h2&gt;
-&lt;p&gt;With 0.13.0 comes project-wide global configuration options with environment support. This is inspired by the Sinatra configuration system but is project-wide rather than app-specific. Configuration can be done anywhere in your project including &lt;code&gt;config/apps.rb&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class="syntax ruby"&gt;&lt;code&gt;&lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;config&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;value1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;42&lt;/span&gt;
-
-&lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;configure&lt;/span&gt; &lt;span class="ss"&gt;:development&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;
-  &lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;value2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"only development"&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt;
-
-&lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;configure&lt;/span&gt; &lt;span class="ss"&gt;:development&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:production&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;
-  &lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;value2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"both development and production"&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt;
-
-&lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;configure&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;
-  &lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;value2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"any environment"&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and then these values can be accessed with:&lt;/p&gt;
-&lt;pre class="syntax ruby"&gt;&lt;code&gt;&lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;config&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;value1&lt;/span&gt; &lt;span class="c1"&gt;# =&amp;gt; 42&lt;/span&gt;
-&lt;span class="no"&gt;Padrino&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;config&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;value2&lt;/span&gt; &lt;span class="c1"&gt;# =&amp;gt; 'any environment'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Thanks to &lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt; for implementing this. More details can &lt;a href="https://github.com/padrino/padrino-framework/pull/1909"&gt;be found in the PR&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="sinatra-upgrades"&gt;Sinatra Upgrades&lt;/h2&gt;
-&lt;p&gt;In this release, we have upgraded Sinatra to the latest 1.4.6 release which allowed us to clean up several previous workarounds. The result is an even cleaner integration with Sinatra. This includes the following Sinatra compatibility improvements:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/pull/1899"&gt;Remove temporary &lt;code&gt;show_exceptions&lt;/code&gt; code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1867"&gt;#1867&lt;/a&gt; Update ShowExceptions to suit latest rack master (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1950"&gt;#1950&lt;/a&gt; Padrino now follows Sinatra’s charset policy (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1704"&gt;Sinatra async streaming callbacks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1880"&gt;#1880&lt;/a&gt; rendering issue by accepting string content types (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1942"&gt;#1942&lt;/a&gt; maintain Sinatra params indifference (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We are committed to compatibility with our Sinatra core and this release marks a solid step forward in that regard.&lt;/p&gt;
-&lt;h2 id="component-updates"&gt;Component Updates&lt;/h2&gt;
-&lt;p&gt;There are several component updates and tweaks in this release including but not limited to:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1133"&gt;#1133&lt;/a&gt; switch default renderer to none (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX Update &lt;a href="https://github.com/padrino/padrino-framework/commit/1a3b2644413cdb865c8f93d26e35af135c5d562a"&gt;rack-test to 0.6.3&lt;/a&gt; and remove old patch (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1908"&gt;#1908&lt;/a&gt; Adds test-unit as a test component (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1932"&gt;#1932&lt;/a&gt; Replace ConnectionManagement with ConnectionPoolManagement (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1940"&gt;#1940&lt;/a&gt; Add IdentityMap middleware to datamapper (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1895"&gt;#1895&lt;/a&gt; Use compass-blueprint gem for improved compass generator (&lt;a href="https://github.com/myokoym"&gt;@myokoym&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="performance-improvements"&gt;Performance Improvements&lt;/h2&gt;
-&lt;p&gt;We are committed to making Padrino as lightweight and comparable to raw Sinatra speed as possible. In that vein, we have made the following improvements:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1857"&gt;#1857&lt;/a&gt; Precompile routes when loading Padrino (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1792"&gt;#1792&lt;/a&gt; Faster code using reverse_each to iterate gems (&lt;a href="https://github.com/glaucocustodio"&gt;@glaucocustodio&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1793"&gt;#1793&lt;/a&gt; Faster codeusing #sub instead of #gsub (&lt;a href="https://github.com/glaucocustodio"&gt;@glaucocustodio&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1959"&gt;#1959&lt;/a&gt; simplify the mounter class (&lt;a href="https://github.com/dnesteryuk"&gt;@dnesteryuk&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1891"&gt;#1891&lt;/a&gt; Refactorings for more reliable dependency loading (&lt;a href="https://github.com/hcatlin"&gt;@hcatlin&lt;/a&gt;, &lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We’ve also introduced a benchmark test suite to test speed for padrino core and router:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1966"&gt;#1966&lt;/a&gt; sample benchmark test of padrino core (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This should help us in making continued improvements going forward.&lt;/p&gt;
-&lt;h2 id="bug-fixes-and-misc-improvements"&gt;Bug Fixes and Misc Improvements&lt;/h2&gt;
-&lt;p&gt;A full list of other changes can be &lt;a href="https://github.com/padrino/padrino-framework/compare/0.12.5...0.13.0"&gt;found on Github&lt;/a&gt; but an abridged version has been appended below:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1614"&gt;#1614&lt;/a&gt; Do not search for caller in bundler lib (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1796"&gt;#1796&lt;/a&gt; Save and restore layout setting on render (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1965"&gt;#1965&lt;/a&gt; Fail properly on wrong mailer name or message (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1916"&gt;#1916&lt;/a&gt; Check key existence on caching (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1919"&gt;#1919&lt;/a&gt; allow configuring log file path&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1931"&gt;#1931&lt;/a&gt; render partials in mail if padrino-helpers is available (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1829"&gt;#1829&lt;/a&gt; add absolute&lt;em&gt;url to app methods, add :base&lt;/em&gt;url setting (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1898"&gt;#1898&lt;/a&gt; Adds missing helpers for the input html element (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX AWS namespace in Dynamoid component (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX Root index route incorrectly matches single-character URLs (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1929"&gt;#1929&lt;/a&gt; Alias db:migrate:down and db:migrate:up when using datamapper (&lt;a href="https://github.com/postmodern"&gt;@postmodern&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX Restore AbstractFormBuilder#field&lt;em&gt;human&lt;/em&gt;name (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1936"&gt;#1936&lt;/a&gt; Don’t echo password input (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX Cache test for moneta (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1943"&gt;#1943&lt;/a&gt; Issue with format provides in controller with wildcard accepts header (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX properly reload classes without instances (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1922"&gt;#1922&lt;/a&gt; consider methodless constants not external (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1853"&gt;#1853&lt;/a&gt; Adds wrapper for application which allows better extensibility (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  NEW Remove deprecated cache functionality (&lt;a href="https://github.com/minad"&gt;@minad&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1772"&gt;#1772&lt;/a&gt; add button content tag to button_to block (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1795"&gt;#1795&lt;/a&gt; load missing models for sq:seed (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  NEW Use mustermann19 in all cases now (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1803"&gt;#1803&lt;/a&gt; Use relative paths for sqlite and sequel (&lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1821"&gt;#1821&lt;/a&gt; Don’t load dependency files unless app’s root is within Padrino root (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1835"&gt;#1835&lt;/a&gt; Switch admin to sequel fixtures rather than datamapper (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX Widen the range of &lt;code&gt;default_dependency_paths&lt;/code&gt; (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1831"&gt;#1831&lt;/a&gt; Implement the &lt;code&gt;mi:translate&lt;/code&gt; task (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1852"&gt;#1852&lt;/a&gt; ApplicationWrapper Prerequisite Issue (&lt;a href="https://github.com/hcatlin"&gt;@hcatlin&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1856"&gt;#1856&lt;/a&gt; Skips loading models for the activerecord rake tasks (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  NEW &lt;a href="https://github.com/padrino/padrino-framework/issues/1818"&gt;#1818&lt;/a&gt; Implement &lt;code&gt;source_location&lt;/code&gt; option for logger (&lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1859"&gt;#1859&lt;/a&gt; Correct issues with the admin seeds generator (&lt;a href="https://github.com/Quintasan"&gt;@Quintasan&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1879"&gt;#1879&lt;/a&gt; Improve access to Active Record Database Configuration (&lt;a href="https://github.com/scudelletti"&gt;@scudelletti&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;  DELETE remove deprecations (String#undent, #link&lt;em&gt;to with :fragment, old caching, old form builder, rendering #fetch&lt;/em&gt;template&lt;em&gt;file, #cache&lt;/em&gt;template&lt;em&gt;file!, #resolved&lt;/em&gt;layout, Application#load&lt;em&gt;paths, Padrino.set&lt;/em&gt;load&lt;em&gt;paths, Padrino.load&lt;/em&gt;paths)&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1860"&gt;#1860&lt;/a&gt; Padrino —environment switch now takes precedence over RACK_ENV environment variable&lt;/li&gt;
-&lt;li&gt;  FIX &lt;a href="https://github.com/padrino/padrino-framework/issues/1849"&gt;#1849&lt;/a&gt; return proper exit codes in CLI&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Want to give a special thanks to the key contributors for this release, working tirelessly to make this Padrino release happen: &lt;a href="https://github.com/ujifgc"&gt;@ujifgc&lt;/a&gt;, &lt;a href="https://github.com/namusyaka"&gt;@namusyaka&lt;/a&gt;. Thanks so much!&lt;/p&gt;
-
-&lt;p&gt;Please report any issues you encounter with this release! We are working very actively on Padrino and want to make the framework as stable and reliable as possible. That concludes the changelog for this release. As always if you want to keep up with Padrino updates, be sure to follow us on twitter: &lt;a href="http://twitter.com/#!/padrinorb"&gt;@padrinorb&lt;/a&gt;, join us on IRC at “#padrino” on freenode or &lt;a href="https://github.com/padrino/padrino-framework/issues"&gt;open an issue&lt;/a&gt; on GitHub.&lt;/p&gt;
-</description>
-      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://padrinorb.com/blog/padrino-0-13-0-mustermann-router-performance-enhancements-streaming-support-and-much-more/</guid>
     </item>
   </channel>
 </rss>
