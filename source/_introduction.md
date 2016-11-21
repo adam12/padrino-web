@@ -76,9 +76,9 @@ The available components and their defaults are listed below:
 Component  | Default | Options
 ---------- | ------- | -----------------------------------------------------------------
 ORM/ODM    | none    | activerecord, datamapper, mongomapper, mongoid, sequel, couchrest
-JavaScript | none    | prototype, rightjs, jquery, mootools, extcore
-Renderer   | none    | Erb, Haml, Slim
-Test       | none    | Bacon, Shoulda, Cucumber, Riot, RSpec
+JavaScript | none    | prototype, jquery, mootools, extcore, dojo
+Renderer   | none    | Erb, Haml, Slim, Liquid
+Test       | none    | Bacon, Shoulda, Cucumber, RSpec, MiniTest
 Stylesheet | none    | Less, Sass, SCSS, Compass
 Mock       | none    | rr, Mocha
 
